@@ -23,7 +23,7 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
-    // Redirect to movies after register
+    // Redirect after register
 
     protected $redirectTo = '/';
 
